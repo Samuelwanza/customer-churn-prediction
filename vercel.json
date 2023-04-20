@@ -3,7 +3,10 @@
     "builds": [
         {
             "src": "*.py",
-            "use": "@liudonghua123/now-flask"
+            "use": "@liudonghua123/now-flask",
+            "env": {
+                "PIP_VERSION": "latest"
+              }
         }
     ],
     "routes": [
